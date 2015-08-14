@@ -2,41 +2,47 @@ div class="header-section"
   div class="header-navigation"
     img class="logo" src="images/logo.png"
     div class="search-bar"
-      input type="text"
+      input class="search-input" type="text" placeholder="szukaj..."
       button class="search-btn"
+       span class="icon-search-1"
     div class="register-panel"
-      select 
-        option value="polish" pl
-        option value="english" eng
+      a href="#" class="select-language" 
+        | wybierz język 
+        span class="icon-down-dir"
+        div class="selection-list"
+          ul
+            li PL
+            li ENG
+            li FR
       a href=""
         | Zaloguj się
       button class="register-btn"
-        a href=""
+        a class="register-link" href=""
           | Zarejestruj się
-
-  div class="header-menu"
-    ul 
-      li class="menu-item"
-        a href=""
-          | Strona główna
-      li class="menu-item"
-        a href=""
-          | O firmie
-      li class="menu-item"
-        a href=""
-          | Oferta
-      li class="menu-item"
-        a href=""
-          | Kontakt
-      li class="menu-item"
-        a href=""
-          | Linki
-      li class="menu-item"
-        a href=""
-          | Galeria
-      li class="menu-item"
-        a href=""
-          | Sklep internetowy
+  div class="container"
+    div class="header-menu"
+      ul 
+        li 
+          a class="menu-item" href=""
+            | Strona główna
+        li 
+          a class="menu-item" href=""
+            | O firmie
+        li 
+          a class="menu-item" href=""
+            | Oferta
+        li 
+          a class="menu-item" href=""
+            | Kontakt
+        li 
+          a class="menu-item" href=""
+            | Linki
+        li 
+          a class="menu-item" href=""
+            | Galeria
+        li 
+          a class="menu-item" href=""
+            | Sklep internetowy
 
   div class="header-hero"
     div class="heading"
@@ -46,8 +52,10 @@ div class="header-section"
         | Rozruszniki
       h1 
         | Regeneracja
-    p 
-      | Jesteśmy największym w Polsce dystrybutorem alternatorów i rozruszników. Zapoznaj się z naszą  bogatą ofertą!
+    p class="hero-paragraph"
+      | Jesteśmy największym w Polsce dystrybutorem alternatorów i rozruszników. 
+      br
+        | Zapoznaj się z naszą  bogatą ofertą!
     button class="yellow-btn"
       a href=""
         | Przejdź do sklepu

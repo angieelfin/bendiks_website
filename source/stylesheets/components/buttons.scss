@@ -1,3 +1,105 @@
-@charset "utf-8";
+.search-btn {
+  background-color: $yellow;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  width: 35px;
+  height: 30px;
 
+  &:hover {
+    background-color: darken($yellow, 2%);
+  }
+  .icon-search-1 {
+    color: white;
+    font-size: 18px;
+  }
+}
 
+.register-btn {
+  background-color: $yellow;
+  border-radius: 0;
+  border: none;
+  padding: 5px;
+
+  .register-link {
+    color: $white;
+  }
+  
+  &:hover {
+    background-color: darken($yellow, 2%);
+  }
+}
+
+.yellow-btn {
+  background-color: $yellow;
+  border: none;
+  border-radius: 0;
+  width: 230px;
+  height: 75px;
+
+  a,
+  a:hover {
+    color: $dark-grey;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: darken($yellow, 2%);
+  }
+}
+
+.yellow-ghost-btn {
+  background-color: transparent;
+  border: 2px solid $yellow;
+  border-radius: 0;
+  width: 230px;
+  height: 75px;
+
+  a,
+  a:hover {
+    color: $yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  &:hover {
+    border: 2px solid $yellow;
+  }
+}
+
+.offer-btn {
+  font-size: $small-font;
+  height: 60px;
+
+  a {
+    padding: 10px;
+  }
+
+  &:hover {
+    background: $yellow;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.contact-btn {
+  height: 50px;
+  
+  a,
+  a:hover {
+    color: $light-grey
+  }
+}
+
+.newsletter-btn {
+  border-radius: 0;
+  border: none;
+  font-size: $small-font;
+  color: $dark-grey;
+  background-color: $yellow;
+  text-transform: uppercase;
+  padding: 10px;
+}
