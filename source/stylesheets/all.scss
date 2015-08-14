@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@import 'variables.scss';
+@import 'fonts.scss';
+
+@import 'grid/skeleton.scss';
+@import 'grid/normalize.scss';
+
+
+
+// import sections styles
+@import 'sections-styles/_header.scss';
+@import 'sections-styles/_about.scss';
+@import 'sections-styles/_offer.scss';
+@import 'sections-styles/_contact.scss';
+@import 'sections-styles/_footer.scss';
+
