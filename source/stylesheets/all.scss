@@ -7,8 +7,6 @@
 @import 'grid/skeleton.scss';
 @import 'grid/normalize.scss';
 
-
-
 // import sections styles
 @import 'sections-styles/_header.scss';
 @import 'sections-styles/_about.scss';
@@ -22,3 +20,10 @@
 @import 'fontello_icons/fontello-ie7-codes';
 @import 'fontello_icons/fontello-codes';
 @import 'fontello_icons/fontello-embedded';
+
+// import media queries sections styles
+@import 'mediaqueries/_header-mq.scss';
+@import 'mediaqueries/_about-mq.scss';
+@import 'mediaqueries/_offer-mq.scss';
+@import 'mediaqueries/_contact-mq.scss';
+@import 'mediaqueries/_footer-mq.scss';

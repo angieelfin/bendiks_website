@@ -1,0 +1,28 @@
+@media screen and (max-width: 760px) {
+  .partner-section {
+    text-align: center;
+  }
+
+  .partner-logo {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contact-info {
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 15px;
+    }
+  }
+  
+  .contact-btn {
+    height: 40px;
+    font-size: 13px;
+    width: 200px;
+  }
+}

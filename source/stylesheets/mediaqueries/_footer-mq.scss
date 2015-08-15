@@ -1,0 +1,36 @@
+@media screen and (max-width: 950px) {
+  .address {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .four.columns{
+    width: 100%;
+    text-align: center;
+  }
+
+  .address {
+    margin: 0 auto;
+  }
+
+  .newsletter-bar {
+    margin-left: 20%;
+    left: 15%;
+  }
+  
+  .footer-navigation {
+    margin: 0;
+  }
+  
+  .footer-newsletter {
+    margin-top: 20px;;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .newsletter-bar {
+    margin-left: 10%;
+    left: 5%;
+  }
+}

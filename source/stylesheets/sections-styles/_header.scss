@@ -16,14 +16,14 @@
 
   input {
     text-transform: uppercase;
-    border: 1px solid white;
+    border: 1px solid $white;
     border-bottom: 1px solid $dark-grey;
     border-radius: 0;
     height: 30px;
 
     &:focus {
-    border: 1px solid white;
-    border-bottom: 1px solid black;
+      border: 1px solid $white;
+      border-bottom: 1px solid #000;
     }
   }
 }
@@ -50,6 +50,7 @@
   text-align: center;
   padding: 10px 50px 0;
   display: none;
+
   ul {
     list-style-type: none;
   }
@@ -59,6 +60,7 @@
 
 .header-menu {
   padding: 10px 0 0;
+
   ul {
     display: flex;
     justify-content: space-around;
@@ -67,16 +69,19 @@
     font-size: $nav-font;
   }
 }
+
 .menu-item {
   display: inline;
   text-decoration: none;
   color: $dark-grey;
   padding: 30px 0;
+
   &:hover {
     color: $dark-grey;
     border-bottom: 5px solid $yellow;
   }
 }
+
 // hero-section
 .header-hero {
   margin-top: -3px;
@@ -88,7 +93,6 @@
   color: $white;
 
   button {
-    margin: 10px;
     display: block;
     margin: 20px auto;
   }
@@ -98,7 +102,7 @@
   font-family: 'arimoregular';
   display: flex;
   justify-content: center;
-  
+
   h1 {
     padding: 40px 30px 0;
     font-size: $large-head-font;
@@ -115,14 +119,18 @@
 }
 
 .arrow-down {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 50px solid transparent;
-  border-right: 50px solid transparent; 
+  border-right: 50px solid transparent;
   border-top: 50px solid #f00;
   margin: auto;
 }
 
 .hero-arrow {
   border-top: 50px solid #000;
+}
+
+.icon-menu {
+  display: none;
 }

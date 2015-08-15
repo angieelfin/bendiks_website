@@ -1,0 +1,85 @@
+@media screen and (max-width: 890px) {
+  .search-bar,
+  .header-menu {
+    display: none !important;
+  }
+
+  .header-navigation {
+    padding-bottom: 130px;
+  }
+
+  .icon-menu {
+    display: block !important;
+    font-size: 50px;
+    color: $yellow;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    right: 50%;
+  }
+
+  .heading {
+    display: block !important;
+    padding-top: 20px;
+
+    h1 {
+      padding: 0;
+    }
+  }
+
+  .hero-paragraph {
+    font-size: 14px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .logo {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    right: 50%;
+  }
+
+  .register-panel  {
+    font-size: 9px;
+    display: inline-block;
+    margin-right: -10px;
+
+    .select-language {
+      display: none;
+    }
+
+    .register-btn {
+      padding: 0;
+    }
+  }
+
+  .heading {
+    display: block !important;
+    padding-top: 20px;
+    
+    h1 {
+      font-size: 30px;
+      padding: 0;
+    }
+  }
+
+  .header-hero {
+    height: 450px;
+  }
+
+  .hero-paragraph {
+    display: none;
+  }
+
+  .yellow-btn,
+  .yellow-ghost-btn {
+    font-size: 12px;
+    width: 200px;
+    height: 60px;
+  }
+}
