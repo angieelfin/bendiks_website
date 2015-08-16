@@ -14,6 +14,11 @@
 @import 'sections-styles/_contact.scss';
 @import 'sections-styles/_footer.scss';
 
+// import contacts sections styles
+@import 'sections-contact-styles/_info.scss';
+@import 'sections-contact-styles/_form.scss';
+
+
 // import fontello icons
 @import 'fontello_icons/fontello';
 @import 'fontello_icons/fontello-ie7';
@@ -27,3 +32,6 @@
 @import 'mediaqueries/_offer-mq.scss';
 @import 'mediaqueries/_contact-mq.scss';
 @import 'mediaqueries/_footer-mq.scss';
+
+@import 'mediaqueries/_info-mq.scss';
+@import 'mediaqueries/_form-mq.scss';

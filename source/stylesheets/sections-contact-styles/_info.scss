@@ -1,0 +1,61 @@
+.arrow-left {
+  cursor: pointer;
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right: 20px solid $yellow;
+  margin-left: 30px;
+}
+
+.contact-arrow {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid $dark-grey;
+  margin: auto;
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: space-between;
+  background: $dark-grey;
+  color: $white;
+  font-family: 'arimoregular';
+  text-transform: uppercase;
+  margin-top: -3px;
+
+  h3 {
+    font-size: $small-head-font !important;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 5px 35px 5px 0;
+  }
+}
+
+.info-section {
+  p {
+    margin: 5px;
+  }
+
+  .columns {
+    margin-top: 50px;
+  }
+}
+
+.info-phone {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.info-column.six{
+  width: 50%;
+}
+
+.address-column.six{
+  width: 46%;
+}
+
+.info-address {
+  margin: auto;
+  text-align: center;
+}
