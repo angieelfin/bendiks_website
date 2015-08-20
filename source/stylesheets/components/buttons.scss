@@ -1,70 +1,66 @@
 .search-btn {
-  background-color: $yellow;
+  background-color: $brand-light;
   border-radius: 0;
-  border: none;
+  border: 0;
   padding: 0;
   width: 35px;
   height: 30px;
 
   &:hover {
-    background-color: darken($yellow, 2%);
-  }
-  .icon-search-1 {
-    color: white;
-    font-size: 18px;
+    background-color: darken($brand-light, 2%);
   }
 }
 
 .register-btn {
-  background-color: $yellow;
+  background-color: $brand-light;
   border-radius: 0;
-  border: none;
+  border: 0;
   padding: 5px;
 
   .register-link {
     color: $white;
   }
-  
+
   &:hover {
-    background-color: darken($yellow, 2%);
+    background-color: darken($brand-light, 2%);
   }
 }
 
-.yellow-btn {
-  background-color: $yellow;
-  border: none;
+.light-btn {
+  background-color: $brand-light;
+  border: 0;
   border-radius: 0;
   width: 230px;
   height: 75px;
 
   a,
   a:hover {
-    color: $dark-grey;
+    color: $brand-dark;
     text-decoration: none;
     text-transform: uppercase;
   }
 
   &:hover {
-    background-color: darken($yellow, 2%);
+    background-color: darken($brand-light, 2%);
   }
 }
 
-.yellow-ghost-btn {
+.light-ghost-btn {
   background-color: transparent;
-  border: 2px solid $yellow;
+  border: 2px solid $brand-light;
   border-radius: 0;
   width: 230px;
   height: 75px;
 
   a,
   a:hover {
-    color: $yellow;
+    color: $brand-light;
     text-decoration: none;
     text-transform: uppercase;
   }
-  
+
   &:hover {
-    border: 2px solid $yellow;
+    border: 2px solid $brand-light;
   }
 }
 
@@ -77,7 +73,7 @@
   }
 
   &:hover {
-    background: $yellow;
+    background: $brand-light;
 
     a {
       color: $white;
@@ -87,19 +83,19 @@
 
 .contact-btn {
   height: 50px;
-  
+
   a,
   a:hover {
-    color: $light-grey
+    color: $light-grey;
   }
 }
 
 .newsletter-btn {
   border-radius: 0;
-  border: none;
+  border: 0;
   font-size: $small-font;
-  color: $dark-grey;
-  background-color: $yellow;
+  color: $brand-dark;
+  background-color: $brand-light;
   text-transform: uppercase;
   padding: 10px;
 }
@@ -110,9 +106,10 @@
   height: 50px;
   padding: 0;
   margin-top: 20px;
+
   a,
   a:hover {
-    color: white;
+    color: $white;
   }
 }
 

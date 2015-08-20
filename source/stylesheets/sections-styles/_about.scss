@@ -3,13 +3,11 @@
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 900px;
-  color: $dark-grey;
+  color: $brand-dark;
   height: 900px;
-  position: relative;
-  z-index: 1;
 
-  h2 {
-    color: $yellow;
+  .about-title {
+    color: $brand-light;
     font-size: $large-head-font;
     margin-top: 20px;
     text-transform: uppercase;
@@ -18,20 +16,11 @@
 
 .about-bg-color {
   background-color: $light-grey;
-  height: 380px;
+  height: 400px;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about-arrow {
-  border-top: 50px solid $light-grey;
-  margin-top: 18px;
-}
-
-.float-right {
-  float: right;
-}
-
-.bold {
-  font-weight: 900;
+  border-top: 50px solid #000;
 }

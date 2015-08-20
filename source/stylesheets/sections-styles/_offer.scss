@@ -1,16 +1,20 @@
 .offer-section {
   font-family: 'arimoregular';
-  color: $dark-grey;
+  color: $brand-dark;
   text-align: center;
+  position: relative;
+  z-index: 1;
+  background: $white;
+  padding-bottom: 30px;
 
-  h2 {
-    color: $yellow;
+  .offer-title {
+    color: $brand-light;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
-  h3 {
+  .column-title {
     text-transform: uppercase;
     font-size: $small-head-font;
     letter-spacing: 1px;
@@ -21,17 +25,14 @@
   width: 480px;
   position: relative;
   top: -40px;
-}
-
-.center {
-  text-align: center;
+  opacity: .3;
+  transition: all .3s ease;
 }
 
 .offer-row {
   margin-top: 80px;
 }
 
-.squeez-width {
-  max-width: 80%;
-  margin: -10px auto;
+.offer-arrow {
+  border-top: 50px solid $light-grey;
 }

@@ -6,7 +6,8 @@
   background-attachment: fixed;
   height: 300px;
   position: relative;
-  margin-top: 50px;
+  padding-top: 0;
+  z-index: 1;
 }
 
 .overlay {
@@ -22,39 +23,17 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: $dark-grey;
+  color: $brand-dark;
 
-  h1 {
+  .contact-title {
     font-size: $large-head-font;
   }
 
-  h2 {
+  .contact-subtitle {
     font-size: $small-head-font;
   }
 }
 
 .contact-arrow {
   border-top: 50px solid $white;
-  margin-top: 18px;
-}
-
-.partner-info {
-  margin-top: 50px;
-
-  h3,
-  a {
-    color: $yellow;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-
-  p {
-    margin: 5px 0;
-  }
-}
-
-.partner-logo {
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 40px;
 }

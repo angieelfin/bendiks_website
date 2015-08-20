@@ -1,13 +1,16 @@
 @media screen and (max-width: 1000px) {
+
   .offer-image {
     width: 390px;
   }
 }
 
 @media screen and (max-width: 760px) {
+
   .offer-image {
     width: 300px;
   }
+
   .offer-btn {
     margin-bottom: 80px;
     font-size: 10px;
@@ -15,13 +18,16 @@
     height: 50px;
     width: 200px;
   }
+
   .offer-row{
     display: flex;
     flex-direction: column;
+
     .six.columns {
       max-width: 100%;
     }
   }
+  
   .order-first {
     order: -1;
   }

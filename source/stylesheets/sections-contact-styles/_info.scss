@@ -1,28 +1,29 @@
 .arrow-left {
   cursor: pointer;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent; 
-  border-right: 20px solid $yellow;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid $brand-light;
   margin-left: 30px;
 }
 
-.contact-arrow {
+.info-arrow {
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-top: 30px solid $dark-grey;
+  border-top: 30px solid $brand-dark;
   margin: auto;
 }
 
 .contact-bar {
   display: flex;
   justify-content: space-between;
-  background: $dark-grey;
+  background: $brand-dark;
   color: $white;
   font-family: 'arimoregular';
   text-transform: uppercase;
-  margin-top: -3px;
+  position: relative;
+  z-index: 1;
 
   h3 {
     font-size: $small-head-font !important;
@@ -33,6 +34,11 @@
 }
 
 .info-section {
+  background: $white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 30px;
+
   p {
     margin: 5px;
   }
@@ -47,11 +53,11 @@
   margin-left: 30%;
 }
 
-.info-column.six{
+.info-column.six {
   width: 50%;
 }
 
-.address-column.six{
+.address-column.six {
   width: 46%;
 }
 

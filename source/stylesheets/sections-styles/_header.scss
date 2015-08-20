@@ -1,9 +1,22 @@
+.header-section {
+  position: relative;
+  z-index: 2;
+  background: $white;
+
+  .container {
+    height: 60px;
+  }
+}
+
 .header-navigation {
   display: flex;
   justify-content: space-between;
   font-size: $small-font;
-  color: $dark-grey;
-  margin: 15px;
+  color: $brand-dark;
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  background: $white;
 }
 
 .logo {
@@ -13,11 +26,12 @@
 
 .search-bar {
   display: flex;
+  height: 30px;
 
-  input {
+  .search-input {
     text-transform: uppercase;
     border: 1px solid $white;
-    border-bottom: 1px solid $dark-grey;
+    border-bottom: 1px solid $brand-dark;
     border-radius: 0;
     height: 30px;
 
@@ -31,106 +45,55 @@
 .register-panel {
   a {
     text-transform: uppercase;
-    color: $dark-grey;
+    color: $brand-dark;
     text-decoration: none;
     margin: 20px;
   }
 }
 
+.select-language-panel {
+  display: flex;
+  align-items: center;
+  float: left;
+  height: 35px;
+}
+
 .select-language {
-  &:focus {
-    .selection-list {
-      display: block;
-    }
-  }
+  margin-right: 0 !important;
 }
 
 .selection-list {
-  position: absolute;
-  text-align: center;
-  padding: 10px 50px 0;
-  display: none;
+  margin: 0;
+  display: block;
+  border: 0;
 
-  ul {
-    list-style-type: none;
+  &:focus {
+    border: 0;
   }
 }
 
 // menu styling
-
 .header-menu {
+  position: relative;
+  z-index: 2;
+  background: $white;
   padding: 10px 0 0;
-
-  ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    text-transform: uppercase;
-    font-size: $nav-font;
-  }
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: $nav-font;
+  margin: 0;
 }
 
 .menu-item {
   display: inline;
   text-decoration: none;
-  color: $dark-grey;
-  padding: 30px 0;
+  color: $brand-dark;
+  padding-bottom: 26px;
 
   &:hover {
-    color: $dark-grey;
-    border-bottom: 5px solid $yellow;
+    color: $brand-dark;
+    border-bottom: 5px solid $brand-light;
   }
-}
-
-// hero-section
-.header-hero {
-  margin-top: -3px;
-  background-image: url('../images/hero-image.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
-  text-align: center;
-  color: $white;
-
-  button {
-    display: block;
-    margin: 20px auto;
-  }
-}
-
-.heading {
-  font-family: 'arimoregular';
-  display: flex;
-  justify-content: center;
-
-  h1 {
-    padding: 40px 30px 0;
-    font-size: $large-head-font;
-    text-transform: uppercase;
-  }
-}
-
-.hero-paragraph {
-  font-family: 'arimoregular';
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 100;
-  margin-bottom: 80px;
-}
-
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid #f00;
-  margin: auto;
-}
-
-.hero-arrow {
-  border-top: 50px solid #000;
-}
-
-.icon-menu {
-  display: none;
 }

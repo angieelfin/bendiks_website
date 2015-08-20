@@ -1,6 +1,5 @@
 .form-arrow {
   border-top: 50px solid $white;
-  margin-top: 18px;
   position: relative;
   z-index: 1;
 }
@@ -8,9 +7,11 @@
 .form-section {
   text-align: center;
   height: 450px;
+  position: relative;
+  z-index: 1;
 
   .overlay {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .7);
   }
 }
 
@@ -23,11 +24,11 @@
   textarea {
     width: 320px;
     margin-top: 20px;
-    border: none;
+    border: 0;
     border-radius: 0;
 
     &:focus {
-      border: 1px solid $yellow;
+      border: 1px solid $brand-light;
     }
   }
 

@@ -1,0 +1,28 @@
+.partner-section {
+  background: $white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 30px;
+  margin-bottom: 400px;
+}
+
+.partner-info {
+  margin-top: 50px;
+
+  .partner-title,
+  .read-more {
+    color: $brand-light;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .partner-ddescription {
+    margin: 5px 0;
+  }
+}
+
+.partner-logo {
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 40px;
+}

@@ -1,33 +1,34 @@
 div class="offer-section"
-  h2
+  div class="arrow-down offer-arrow"
+  h2 class="offer-title"
     | Nasza oferta
   div class="container"
-
     div class="row offer-row"
-      div class="six columns "
-        h3 
+      div class="six columns"
+        h3 class="column-title"
           | Rozruszniki
         p
           | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere dignissim tincidunt. Aliquam arcu augue, feugiat nec mauris eget, mollis facilisis nisl.
-        button class="yellow-ghost-btn offer-btn"
+        button class="light-ghost-btn offer-btn"
           a href="" Przejdź do katalogu
       div class="six columns order-first" 
-        img class="offer-image img-1" src="images/rozrusznik.png"
+        /order-first class affects media queries so it's in mediaqueries/_offer-mq.scss
+        img class="offer-image top-opacity-image" src="images/rozrusznik.png"
     div class="row offer-row"
       div class="six columns" 
-        img class="offer-image img-2" src="images/alternator.png"
+        img class="offer-image bottom-opacity-image" src="images/alternator.png"
       div class="six columns"
-        h3 
+        h3 class="column-title"
           | Alternatory
         p
           | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere dignissim tincidunt. Aliquam arcu augue, feugiat nec mauris eget, mollis facilisis nisl.
-        button class="yellow-ghost-btn offer-btn"
+        button class="light-ghost-btn offer-btn"
           a href="" Przejdź do katalogu
     div class="row squeez-width offer-row"
       div class="twelve columns"
-        h3 
+        h3 class="column-title"
           | Regeneracja
         p
           | Oprócz oferowania gotowych produktów dysponujemy technicznymi możliwościami i wiedzą umożliwiającą fachową diagnostykę oraz szybkie zregenerowanie większości alternatorów, rozruszników oraz części występujących na rynku.
-        button class="yellow-ghost-btn offer-btn"
+        button class="light-ghost-btn offer-btn"
           a href="" Przejdź do katalogu

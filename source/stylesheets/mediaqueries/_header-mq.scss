@@ -1,6 +1,8 @@
 @media screen and (max-width: 890px) {
+
   .search-bar,
-  .header-menu {
+  .header-menu,
+  .header-section .container {
     display: none !important;
   }
 
@@ -11,12 +13,12 @@
   .icon-menu {
     display: block !important;
     font-size: 50px;
-    color: $yellow;
+    color: $brand-light;
   }
 
   .logo {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 45%;
     right: 50%;
   }
@@ -25,7 +27,7 @@
     display: block !important;
     padding-top: 20px;
 
-    h1 {
+    .hero-title {
       padding: 0;
     }
   }
@@ -37,9 +39,9 @@
 }
 
 @media screen and (max-width: 530px) {
+
   .logo {
     position: absolute;
-    top: 15%;
     left: 37%;
     right: 50%;
   }
@@ -62,24 +64,39 @@
     display: block !important;
     padding-top: 20px;
     
-    h1 {
+    .hero-title {
       font-size: 30px;
       padding: 0;
     }
   }
 
   .header-hero {
-    height: 450px;
+    position: relative;
+    z-index: 1;
+    height: 400px;
   }
 
   .hero-paragraph {
     display: none;
   }
 
-  .yellow-btn,
-  .yellow-ghost-btn {
+  .light-btn,
+  .light-ghost-btn {
     font-size: 12px;
     width: 200px;
     height: 60px;
+  } 
+}
+
+@media screen and (max-width: 430px) {
+
+  .search-bar-mobile input {
+      font-size: $small-font;
+      width: 80px;
+      height: 27px;
+  }
+  
+  .selection-list {
+    display: none;
   }
 }

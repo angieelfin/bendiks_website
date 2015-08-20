@@ -1,17 +1,23 @@
 @charset "utf-8";
 
 @import 'variables.scss';
+@import 'utilis.scss';
 @import 'components/buttons.scss';
+@import 'components/icons.scss';
 @import 'fonts.scss';
 
+// import grid in skeleton framework
 @import 'grid/skeleton.scss';
 @import 'grid/normalize.scss';
 
 // import sections styles
 @import 'sections-styles/_header.scss';
+@import 'sections-styles/_mobile-menu.scss';
+@import 'sections-styles/_hero.scss';
 @import 'sections-styles/_about.scss';
 @import 'sections-styles/_offer.scss';
 @import 'sections-styles/_contact.scss';
+@import 'sections-styles/_partner.scss';
 @import 'sections-styles/_footer.scss';
 
 // import contacts sections styles
@@ -26,12 +32,11 @@
 @import 'fontello_icons/fontello-codes';
 @import 'fontello_icons/fontello-embedded';
 
-// import media queries sections styles
+// import media queries styles
 @import 'mediaqueries/_header-mq.scss';
 @import 'mediaqueries/_about-mq.scss';
 @import 'mediaqueries/_offer-mq.scss';
 @import 'mediaqueries/_contact-mq.scss';
 @import 'mediaqueries/_footer-mq.scss';
-
 @import 'mediaqueries/_info-mq.scss';
 @import 'mediaqueries/_form-mq.scss';

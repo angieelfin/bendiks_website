@@ -1,9 +1,13 @@
 .footer-section {
   color: #5f5f5f;
-  background-color: $dark-grey;
+  background-color: $brand-dark;
   font-size: 14px;
   margin-top: 40px;
   padding: 40px 0;
+  position: fixed;
+  z-index: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo-footer {
@@ -33,7 +37,7 @@
 .footer-newsletter {
   text-align: center;
 
-  h3 {
+  .newsletter-title {
     text-transform: uppercase;
     font-size: $small-head-font;
   }
@@ -43,7 +47,7 @@
   display: flex;
   margin-bottom: 20px;
 
-  input {
+  .newsletter-input {
     width: 200px;
     border-radius: 0;
     font-size: $small-font;

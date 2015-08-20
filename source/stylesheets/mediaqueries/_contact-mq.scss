@@ -1,6 +1,14 @@
 @media screen and (max-width: 760px) {
+
+  .contact-section {
+    position: relative;
+    z-index: 1;
+    height: 300px;
+  }
+
   .partner-section {
     text-align: center;
+    margin-bottom: 900px;
   }
 
   .partner-logo {
@@ -11,11 +19,11 @@
 @media screen and (max-width: 570px) {
   .contact-info {
 
-    h1 {
+    .contact-title {
       font-size: 30px;
     }
 
-    h2 {
+    .contact-subtitle {
       font-size: 15px;
     }
   }
